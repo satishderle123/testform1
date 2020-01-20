@@ -2,7 +2,7 @@
 
 import { Component, OnInit } from "@angular/core";
 @Component({
-  selector: "my-app",
+  selector: "mytestform",  // this selector is always in index.html
   templateUrl: "./app.component.html",
   styleUrls: ["./app.component.css"] 
 })
@@ -11,6 +11,6 @@ export class AppComponent implements OnInit {
   constructor() {}
   ngOnInit() {}
   onClickSubmit(formData) {
-    alert("Your Email is : " + formData.email+"and password is "+formdata.password);
+    alert("Your Email is : " + formData.email+" password is "+formData.pwd);
   }
-}
+  }
