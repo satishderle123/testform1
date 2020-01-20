@@ -5,6 +5,7 @@ import { Component, OnInit } from "@angular/core";
   selector: "mytestform",  // this selector is always in index.html
   templateUrl: "./app.component.html",
   styleUrls: ["./app.component.css"] 
+  
 })
 export class AppComponent implements OnInit {
   title="Test FormData"
